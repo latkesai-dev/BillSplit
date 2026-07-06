@@ -5,7 +5,8 @@ spring:
   application:
     name: billsplit
   datasource:
-    url: ${DB_URL:jdbc:postgresql://localhost:5432/billsplit}
+    url:
+    ${DB_URL: jdbc:postgresql://localhost:5432/billsplit}
     username: ${DB_USERNAME:postgres}
     password: ${DB_PASSWORD:sai}
   jpa:
