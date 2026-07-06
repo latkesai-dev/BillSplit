@@ -1,4 +1,4 @@
-# 🧾 BillSplit Pro – Smart Group Expense Splitter
+# 🧾 BillSplit – Smart Group Expense Splitter
 
 <p align="center">
 
@@ -20,9 +20,9 @@ Built using **Spring Boot**, **React**, **PostgreSQL**, **Spring Security**, **J
 
 # 🌐 Live Demo
 
-**Frontend:** https://your-vercel-url.vercel.app
+**Frontend:** https://bill-split-khaki.vercel.app
 
-**Backend API:** https://your-render-url.onrender.com
+**Backend API:** https://billsplit-1-3kpi.onrender.com
 
 **Database:** Neon PostgreSQL
 
@@ -32,55 +32,49 @@ Built using **Spring Boot**, **React**, **PostgreSQL**, **Spring Security**, **J
 
 ## Login
 
-<img src="screenshots/login.png" alt="Login">
+<img src="screenshot/login.png" alt="Login">
 
 ---
 
 ## Register
 
-<img src="screenshots/register.png" alt="Register">
+<img src="screenshot/register.png" alt="Register">
 
 ---
 
 ## Dashboard
 
-<img src="screenshots/dashboard.png" alt="Dashboard">
-
----
-
-## My Groups
-
-<img src="screenshots/groups.png" alt="Groups">
+<img src="screenshot/dashboard.png" alt="Dashboard">
 
 ---
 
 ## Add Expense
 
-<img src="screenshots/add-expense.png" alt="Expense">
+<img src="screenshot/expenses.png" alt="Expense">
 
 ---
 
 ## Expense History
 
-<img src="screenshots/history.png" alt="History">
+<img src="screenshot/history.png" alt="History">
 
 ---
 
 ## Settlement Suggestions
 
-<img src="screenshots/settlement.png" alt="Settlement">
+<img src="screenshot/settleup.png" alt="Settlement">
 
 ---
 
 ## Activity Logs
 
-<img src="screenshots/activity.png" alt="Activity">
+<img src="screenshot/activity_logs.png" alt="Activity">
 
 ---
 
 ## Database Schema
 
-<img src="screenshots/database.png" alt="Database">
+<img src="screenshot/database.png" alt="Database">
 
 ---
 
