@@ -1,0 +1,24 @@
+server:
+  port: ${PORT:8080}
+
+spring:
+  application:
+    name: billsplit
+  datasource:
+    url: ${DB_URL:jdbc:postgresql://localhost:5432/billsplit}
+    username: ${DB_USERNAME:postgres}
+    password: ${DB_PASSWORD:sai}
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: false
+
+jwt:
+  secret: ${JWT_SECRET:change-this-to-a-very-long-random-secret-key-in-production}
+  expiration-ms: ${JWT_EXPIRATION_MS:86400000}
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: health
